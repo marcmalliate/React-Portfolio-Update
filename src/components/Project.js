@@ -19,23 +19,30 @@ function Section() {
         <h2>About Me</h2>
         <p>
           Heya, If you're looking for Marcus' web-development portfolio then
-          you've come to the right place. This is the space where you can check
-          out all the projects I've been working on and learn a little bit more
-          about me. I hold a bachelors degree in Business and have studied
-          abroad at Greenwich University in London. I love travelling and so far
-          I've been lucky enough to visit 32 countries. I'm hoping to reach 50
-          before my 50th birthday.
+          you've come to the right place.
+          <br></br>
+          <br></br>
+          This is the space where you can check out all the projects I've been
+          working on and learn a little bit more about me.
+          <br></br>I hold a bachelors degree in Business and have studied abroad
+          at Greenwich University in London.
+          <br></br>
+          <br></br>I love travelling and so far I've been lucky enough to visit
+          32 countries. I'm hoping to reach 50 before my 50th birthday.
+          <br></br>
           <br></br>
           Currently, I'm spending my days expanding my knowledge of
-          web-development and coding at Adelaide University. I'm excited to put
-          my skills into practice.{" "}
+          web-development and coding at Adelaide University. <br></br>
+          I'm excited to put my skills into practice.{" "}
         </p>
-
-        <img src={headshot1} alt="profile" />
+        <br></br>
+        <p>
+          <img src={headshot1} alt="profile" />
+        </p>
       </div>
 
       <div id="my-work">
-        <h2>Portfolio</h2>
+        <h2>My Portfolio</h2>
       </div>
       <section className="my-work">
         <div className="my-work-card">
@@ -56,7 +63,7 @@ function Section() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={Picture3} alt="place-holder" />
+            <img src={Picture1} alt="place-holder" />
           </a>
         </div>
 
@@ -72,8 +79,12 @@ function Section() {
             </a>{" "}
             for GitHub repo, click image for deployed website.
           </p>
-          <a href="Insert" target="_blank" rel="noopener noreferrer">
-            <img src={Picture1} alt="place-holder" />
+          <a
+            href="https://marcmalliate.github.io/Weather-Dashboard/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Picture3} alt="place-holder" />
           </a>
         </div>
 
@@ -123,31 +134,27 @@ function Section() {
             />
           </p>
           <p>
-            <label for="phone-number">Phone number:</label>
-            <input
-              className="text-input"
-              id="phone-number"
-              type="text"
-              placeholder="Phone number"
-            />
-          </p>
-          <p>
-            <label for="query">Query:</label>
+            <label for="query">Message:</label>
             <textarea
               className="text-input"
               id="query"
-              placeholder="Please write your query here"
+              placeholder="What would you like to say?"
             ></textarea>
           </p>
           <p>
-            <button>Submit</button>
+            <button>Send</button>
           </p>
         </form>
       </div>
 
       <div id="resume">
-        <h2>Resume</h2>
-        <a href=" download https://www.canva.com/design/DAEuDjeIKic/bRHahalgvOHhHSpHBUDSjg/view?utm_content=DAEuDjeIKic&utm_campaign=designshare&utm_medium=embeds&utm_source=link"></a>
+        <h2>View My Resume</h2>
+        <p>
+          <a href="https://www.canva.com/design/DAEuDjeIKic/bRHahalgvOHhHSpHBUDSjg/view?utm_content=DAEuDjeIKic&utm_campaign=designshare&utm_medium=embeds&utm_source=link">
+            {" "}
+            <button>Resume</button>{" "}
+          </a>
+        </p>
       </div>
     </section>
   );

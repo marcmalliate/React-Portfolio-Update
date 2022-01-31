@@ -3,8 +3,6 @@ import "../styles/Footer.css";
 import github from "../assets/images/github.png";
 import linkedin from "../assets/images/linkedin.png";
 
-// We use JSX curly braces to evaluate the style object on the JSX tag
-
 function Footer() {
   return (
     <footer>

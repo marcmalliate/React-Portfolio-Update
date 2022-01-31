@@ -1,24 +1,20 @@
 import React from "react";
 import "../styles/Header.css";
 
-// By importing the Header.css file, it is added to the DOM whenever this component loads
-
-// We use JSX curly braces to evaluate the style object
-
 function Header() {
   return (
     <header>
       <div className="page-title">
         <h1>Marcus Malliate</h1>
-        <p>Web Developer</p>
+        <p>Full Stack Developer</p>
       </div>
 
       <div className="navbar">
         <a href="#about-me" class="nav-button">
-          About
+          About Me
         </a>
         <a href="#my-work" class="nav-button">
-          Portfolio
+          My Portfolio
         </a>
         <a href="#contact-me" class="nav-button">
           Contact
