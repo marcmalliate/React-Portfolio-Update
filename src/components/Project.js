@@ -49,7 +49,8 @@ function Section() {
           <h3>Marvelous Memes</h3>
           <p>
             This project uses two third party APIs and is responsive, clean and
-            has a mobile first design.. Click{" "}
+            has a mobile first design.. <br></br>
+            Click{" "}
             <a
               href="https://github.com/marcmalliate/Collaborative-Project"
               target="_blank"
@@ -70,7 +71,9 @@ function Section() {
         <div className="my-work-card">
           <h3>This is a Weather Dashboard</h3>
           <p>
-            It uses the Open Weather one call API. Click{" "}
+            It uses the Open Weather one call API.
+            <br></br>
+            Click{" "}
             <a
               href="https://github.com/marcmalliate/Weather-Dashboard"
               target="_blank"
@@ -91,7 +94,9 @@ function Section() {
         <div className="my-work-card">
           <h3>This is an Online Book Club</h3>
           <p>
-            It uses handlebars.js and is deployed using Heroku. Click{" "}
+            It uses handlebars.js and is deployed using Heroku.
+            <br></br>
+            Click{" "}
             <a
               href="https://github.com/marcmalliate/The-Book-Was-Better"
               target="_blank"
