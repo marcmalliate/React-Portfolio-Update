@@ -29,7 +29,7 @@ Once you have install the packages, run `npm start` to open the application in a
 
 ## Usage
 
-Used an an overview of my knowledge of web development so far and as show of my portfolio for future employers and collaborators.
+Used an an overview of my knowledge of web development so far and as showcase my portfolio for future employers and collaborators.
 
 <br />
 
@@ -56,6 +56,10 @@ _If you would like to know more or have a question you'd like to ask, please con
 
 https://github.com/marcmalliate/React-Portfolio-Update
 
+### To view my deployed portfolio please visit:
+
+https://marcusmalliate.herokuapp.com/
+
 <br />
 
 ### Screenshot of application:
@@ -73,8 +77,6 @@ Contact/Footer Preview
 ![This is the result of the indexedDB storage](./src/assets/images/3.png)
 
 <br />
-
-To view my deployed portfolio please visit: https://marcusmalliate.herokuapp.com/
 
 <br />
 
