@@ -4,8 +4,9 @@ import headshot1 from "../assets/images/headshot1.jpg";
 import Picture3 from "../assets/images/Picture3.png";
 import Picture1 from "../assets/images/Picture1.png";
 import Picture2 from "../assets/images/Picture2.png";
-
-// We use JSX curly braces to evaluate the style object on the JSX tag
+import Picture4 from "../assets/images/Picture4.png";
+import Picture5 from "../assets/images/Picture5.png";
+import Picture6 from "../assets/images/Picture6.png";
 
 function Section() {
   return (
@@ -44,6 +45,7 @@ function Section() {
       <div id="my-work">
         <h2>My Portfolio</h2>
       </div>
+
       <section className="my-work">
         <div className="my-work-card">
           <h3>Marvelous Memes</h3>
@@ -111,6 +113,72 @@ function Section() {
             rel="noopener noreferrer"
           >
             <img src={Picture2} alt="place-holder" />
+          </a>
+        </div>
+
+        <div className="my-work-card">
+          <h3>Daily Work Scheduler</h3>
+          <p>
+            The assignment was to a simple calendar application that allows a
+            user to save events for each hour of the day by modifying starter
+            code.
+            <br></br>
+            Click{" "}
+            <a
+              href="https://github.com/marcmalliate/Third-Party-APIs"
+              target="_blank"
+            >
+              here
+            </a>{" "}
+            for GitHub repo, click image for deployed website.
+          </p>
+          <a
+            href="https://marcmalliate.github.io/Third-Party-APIs/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Picture6} alt="place-holder" />
+          </a>
+        </div>
+
+        <div className="my-work-card">
+          <h3>Code Quiz</h3>
+          <p>
+            This website has been designed to run a quiz about coding. It has
+            been built using HTML, Css and Javascript.
+            <br></br>
+            Click{" "}
+            <a href="https://github.com/marcmalliate/Code-Quiz" target="_blank">
+              here
+            </a>{" "}
+            for GitHub repo, click image for deployed website.
+          </p>
+          <a
+            href=" https://marcmalliate.github.io/Password-Generator/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Picture5} alt="place-holder" />
+          </a>
+        </div>
+
+        <div className="my-work-card">
+          <h3>Marc's Awesome Text Editor</h3>
+          <p>
+            Single page app that meets PWA criteria and uses a service worker.
+            <br></br>
+            Click{" "}
+            <a href="https://github.com/marcmalliate/MATE" target="_blank">
+              here
+            </a>{" "}
+            for GitHub repo, click image for deployed website.
+          </p>
+          <a
+            href="https://marcs-awesome-text-editor.herokuapp.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={Picture4} alt="place-holder" />
           </a>
         </div>
       </section>
