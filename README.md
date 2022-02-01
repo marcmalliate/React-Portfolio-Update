@@ -29,7 +29,7 @@ Once you have install the packages, run `npm start` to open the application in a
 
 ## Usage
 
-Used an an overview of my knowledge of web development so far and as showcase my portfolio for future employers and collaborators.
+Used to showcase of my knowledge of web development so far and display my portfolio for future employers and collaborators.
 
 <br />
 
@@ -48,7 +48,7 @@ Please email me to discuss further.
 
 ## Questions
 
-_If you would like to know more or have a question you'd like to ask, please contact me via email marc.malliate@gmail.com or you may also like to checkout my work [here](https://github.com/marcmalliate)_
+If you would like to know more or have a question you'd like to ask, please contact me via email marc.malliate@gmail.com or you may also like to checkout my work [here](https://github.com/marcmalliate)\_
 
 <br />
 
